@@ -47,9 +47,9 @@ select {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   margin-bottom: 30px;
-  font-size: 18;
+  font-size: 20;
   text-align: justify;
 }
 .login {
