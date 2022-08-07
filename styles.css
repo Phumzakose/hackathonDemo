@@ -1,89 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Spline+Sans+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Spline+Sans+Mono:wght@300&display=swap");
 
-html{
+html {
   scroll-behavior: smooth;
 }
-body
-{
-    font-family: 'Roboto', sans-serif;;
+body {
+  font-family: "Roboto", sans-serif;
 }
-nav
-{
-    border-collapse: collapse;
-    background-color: pink;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.09);
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-  }
-  .nav-link:hover{
-    background-color: rgb(238, 141, 154);
-  }
-  .nav-link {
-    color: brown;
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 10px;
-    transition: 0.2s ease-out;
-  }
-  h1
-  {
-    text-align: center;
-  }
-.messages
-{
-    border: 1px solid black;
-    border-radius: 20px;
-    height: 80vh;
-    width: 1300px;
-    margin: 60px 30px 0 60px;
-    background-color: pink;
-    display: flex;
+nav {
+  border-collapse: collapse;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.09);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
-.msg
-{
+.nav-link:hover {
+  background-color: rgb(238, 141, 154);
+}
+.nav-link {
+  color: brown;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px;
+  transition: 0.2s ease-out;
+}
+h1 {
+  text-align: center;
+}
+.messages {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 80vh;
+  width: 1300px;
+  margin: 60px 30px 0 60px;
+  background-color: pink;
+  display: flex;
+}
+.msg {
   margin: 90px 40px 0 50px;
   text-align: center;
   padding-bottom: 20px;
   font-size: 20px;
 }
-#btn
-{
+#btn {
   width: 100px;
   height: 75px;
   background-color: pink;
 }
-.msgs
-{
+.msgs {
   text-align: center;
   padding-bottom: 20px;
   font-size: 20px;
 }
-label
-{
+label {
   padding: 0 0 0 370px;
   font-size: 30px;
 }
 
-input{
+input {
   height: 70px;
   width: 400px;
 }
-.motiv
-{
-    border: 1px solid black;
-    border-radius: 20px;
-    height: 80vh;
-    width: 1300px;
-    margin: 60px 30px 0 60px;
-    background-color: pink;
-    display: flex;
+.motiv {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 80vh;
+  width: 1300px;
+  margin: 60px 30px 0 60px;
+  background-color: pink;
+  display: flex;
 }
 li {
   width: 250px;
@@ -98,29 +89,45 @@ li {
   height: 300px;
   list-style: none;
 }
-.logout
-{
- height: 50px;
- width: 100px;
- cursor: pointer;
-}
-img
-{
-    width: 200px;
-    height: 200px;
-}
-.therapists{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: 40px auto;
-    text-align: center;
-    margin-top: 80px;
+.motiv {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 80vh;
+  width: 1300px;
+  margin: 60px 30px 0 60px;
+  background-color: pink;
+  display: flex;
 }
 
-.therapists > div
-{
-    width: 30%;
+.logout {
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.therapists {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.therapists > div {
+  width: 30%;
+}
+.btns {
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.intro {
+  margin-top: 50px;
+  text-align: center;
 }
 
 /* @media  {
