@@ -118,3 +118,8 @@ label {
   color: black;
   font-size: 18px;
 }
+.its {
+  height: 40px;
+  width: 215px;
+  border-radius: 5px;
+}
